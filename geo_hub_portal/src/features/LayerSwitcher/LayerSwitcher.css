@@ -1,0 +1,418 @@
+.LayerSwitcher{
+  height:100%;
+  z-index:4;
+  position: fixed;
+  border-left:1px solid black;
+  right:0px;
+  color:white;
+  visibility:hidden;
+  transition:visibility 0.3s linear,opacity 0.3s linear;
+  background-color:rgba(33, 37, 41, 0.8);
+  overflow: auto;
+}
+
+.LayerSwitcher .logo{
+  padding:0px;
+}
+
+.LayerSwitcher .logo img{
+  width:450px; 
+}
+
+.SwitcherTitle {
+  font-size:35px;
+  font-weight: bolder;  
+} 
+
+.SwitcherToggler{
+  width:65px;
+  margin: 0 0 0 auto;
+  padding:5px 20px 5px 20px;
+  cursor:pointer;
+}
+
+.LayerSwitcher .explorer .folder .title{
+  font-size:25px;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
+  cursor:pointer;
+}
+
+.LayerSwitcher .explorer .folder .item{
+  margin-left:1px;
+}
+
+.LayerSwitcher .explorer .folder .layerTitle{
+  font-size:20px;
+  text-overflow: ellipsis !important;
+  overflow: hidden !important;
+}
+
+.HeavyLink, .LayerLink{
+  font-size:22px;
+}
+
+.LayerSwitcher .explorer .folder .layerCheck{
+  width:18px;
+  height:18px;
+  margin-top:6px;
+}
+
+.LayerSwitcher .explorer{
+  color:white;
+}
+
+.LayerSwitcher .explorer .folder{
+  color:white;
+}
+
+.LayerSwitcher .explorer .folder .title div{
+  width: 40px;
+  display:inline-block;
+}
+
+
+.LayerSwitcher .explorer .folder .content .item input{
+  cursor:pointer;
+}
+
+.LayerSwitcher .explorer .folder .content{
+  border-left:1px solid white;
+  padding-left: 15px;
+  margin-left: 15px;
+  display:none;
+  visibility: hidden;
+}
+
+.LayerSwitcher .explorer .folder .content .item label{
+  color:white;
+  margin-left:5px;
+}
+
+@media only screen and (max-width: 1050px) {
+ 
+  .LayerSwitcher .logo img{
+    width:420px; 
+  }
+
+  .SwitcherTitle{
+    font-size:30px;
+  }
+
+  .SwitcherToggler img{
+    width:40px;
+  }
+
+  .LayerSwitcher .explorer .folder .title{
+    font-size:20px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:16px;
+    max-width:350px;
+    text-overflow: none !important;
+    white-space: none !important;
+    overflow: none !important;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:20px;
+  }
+
+  .LayerSwitcher .explorer .folder .item{
+    margin-left:3px;
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:16px;
+    height:16px;
+    margin-top:4px;
+  }
+
+}
+
+@media only screen and (max-width: 800px) {
+ 
+  .LayerSwitcher .logo img{
+    width:380px; 
+  }
+
+  .SwitcherTitle{
+    font-size:30px;
+  }
+
+  .SwitcherToggler img{
+    width:35px;
+  }
+  
+  .LayerSwitcher .explorer .folder .title{
+    font-size:18px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:15px;
+    max-width:200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:18px;
+  }
+
+  .LayerSwitcher .explorer .folder .item{
+    margin-left:3px;
+    
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:16px;
+    height:16px;
+  }
+
+  .LayerSwitcher .explorer .folder .content .item label{
+    font-size:15px;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:15px;
+    max-width:280px;
+    text-overflow: none !important;
+    white-space: none !important;
+    overflow: none !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:16px;
+    height:16px;
+    margin-top:4px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 600px) {
+  
+  
+  .LayerSwitcher .logo img{
+    width:350px; 
+  }
+
+  .SwitcherTitle{
+    font-size:25px;
+  }
+
+  .SwitcherToggler img{
+    width:30px;
+  }
+
+  .SwitcherToggler{
+    padding:5px 10px 5px 10px;
+  }
+
+  .LayerSwitcher .explorer .folder .title{
+    
+    font-size:16px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:13px;
+    max-width:240px;
+    text-overflow: none !important;
+    white-space: none !important;
+    overflow: none !important;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:16px; 
+  }
+
+  .LayerSwitcher .explorer .folder .item{
+    margin-left:1px;
+    
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:15px;
+    height:15px;
+    margin-top:4px;
+  }
+
+}
+
+
+@media only screen and (max-width: 520px) {
+  
+  
+  .LayerSwitcher .logo img{
+    width:300px; 
+  }
+
+  .SwitcherTitle{
+    font-size:20px;
+  }
+
+  .SwitcherToggler img{
+    width:25px;
+  }
+
+  .LayerSwitcher .explorer .folder .title{
+    font-size:13px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:12px;
+    max-width:160px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerLegendTitle{
+    font-size:10px;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:11px; 
+  }
+
+  .SwitcherToggler{
+    padding:5px 10px 5px 10px;
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:13px;
+    height:13px;
+    margin-top:2px;
+  }
+
+
+}
+
+@media only screen and (max-width: 480px) {
+  
+  .LayerSwitcher .logo img{
+    width:220px; 
+  }
+
+  .SwitcherTitle{
+    font-size:18px;
+  }
+
+  .SwitcherToggler img{
+    width:22px;
+  }
+
+  .LayerSwitcher .explorer .folder .title{
+    font-size:11px;
+    max-width:200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:10px;
+    max-width:120px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:12px;
+    height:12px;
+    margin-top:1px;
+  }
+
+  .LayerLegendTitle{
+    font-size:9px;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:10px; 
+  }
+
+}
+
+@media only screen and (max-width: 370px) {
+  
+  .LayerSwitcher .logo img{
+    width:200px; 
+  }
+
+  .SwitcherTitle{
+    font-size:15px;
+  }
+
+  .SwitcherToggler img{
+    width:20px;
+  }
+
+  .LayerSwitcher .explorer .folder .title{
+    font-size:11px;
+    max-width:200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:9px;
+    max-width:100px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerCheck{
+    width:12px;
+    height:12px;
+    margin-top:1px;
+  }
+
+  .LayerLegendTitle{
+    font-size:9px;
+  }
+
+  .HeavyLink, .LayerLink{
+    font-size:10px; 
+  }
+
+}
+
+@media only screen and (max-width: 330px) {
+  
+
+  .LayerSwitcher .explorer .folder .title{
+    font-size:11px;
+    max-width:200px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+  .LayerSwitcher .explorer .folder .layerTitle{
+    font-size:9px;
+    max-width:80px;
+    text-overflow: ellipsis !important;
+    white-space: nowrap !important;
+    overflow: hidden !important;
+  }
+
+
+}

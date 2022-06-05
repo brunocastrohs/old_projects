@@ -1,0 +1,17 @@
+.Toolbar{
+  overflow: auto;
+  margin-left:auto;
+  margin-right:0px;
+}
+
+.Toolbar input[type='image']{
+  padding:15px 20px 15px 20px;
+  margin-left:5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .Toolbar input[type='image']{
+    padding:15px 10px 15px 10px;
+    margin-left:2px;
+  }
+ }

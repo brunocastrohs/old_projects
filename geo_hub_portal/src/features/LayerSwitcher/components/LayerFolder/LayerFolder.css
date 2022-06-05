@@ -1,0 +1,16 @@
+.LayerFolder{
+    background-color: wheat;    
+}
+
+.LayerLegend{
+    visibility:hidden;
+    display:none;
+    border-radius:5px;  
+    background-color: transparent;  
+    max-width: 300px;
+}
+
+.LayerLegendTitle{
+    visibility:hidden;
+    display:none;
+}

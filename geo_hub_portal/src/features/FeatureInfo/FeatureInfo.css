@@ -1,0 +1,20 @@
+.FeatureInfo {
+  color:white;
+}
+
+.FeatureInfoActive {
+  background-color:rgba(255, 255, 255, 0.55);
+}
+
+.FeatureInfoDeactive {
+  color:rgba(255, 255, 255, 0.55);
+  border-color:rgba(255, 255, 255, 0.55);
+}
+
+.FeatureInforRecord{
+  margin-bottom:5px;
+}
+
+.FeatureField{
+  font-weight:bolder;
+}

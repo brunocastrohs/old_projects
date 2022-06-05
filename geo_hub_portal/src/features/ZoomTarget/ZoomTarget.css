@@ -1,0 +1,36 @@
+.ZoomTarget {
+  position: fixed;
+  z-index:2;
+  left:5px;
+  top:80px;
+  width:50px;
+  padding: 5px;
+  text-align: center;
+}
+
+.ZoomTargetContent button{
+  border:1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  background-color:rgba(33, 37, 41, 0.8);
+  margin-top:2px;
+  color:white;
+  font-weight: bolder;
+}
+
+.ZoomTarget input{
+  border:1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  background-color:rgba(33, 37, 41, 0.8);
+  color:white;
+  font-weight: bolder;
+  padding:5px 5px 5px 5px;
+}
+
+@media only screen and (max-width: 500px) {
+
+  .ZoomTarget {
+    top:75px;
+  }
+  
+  
+}

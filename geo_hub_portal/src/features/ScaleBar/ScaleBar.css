@@ -1,0 +1,18 @@
+.ScaleBar {
+  position: fixed;
+  z-index:2;
+  right:5px;
+  bottom:5px;
+  width:100px;
+  border-radius: 5px;
+  padding: 5px;
+  background-color:rgba(33, 37, 41, 0.8);
+}
+
+.ScaleBarContent {
+  text-align: center;
+  color:white;
+  border-left:1px dashed white;
+  border-right:1px dashed white;
+  border-bottom:1px dashed white;
+}

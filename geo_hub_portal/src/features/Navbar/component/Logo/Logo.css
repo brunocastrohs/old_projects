@@ -1,0 +1,13 @@
+.Logo{
+  font-weight: bolder;
+}
+
+.Logo span{
+  display:inline;
+}
+
+@media only screen and (max-width: 1020px) {
+ .Logo span{
+    display:none;
+ }
+}

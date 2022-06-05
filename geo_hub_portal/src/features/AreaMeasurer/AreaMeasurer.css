@@ -1,0 +1,12 @@
+.AreaMeasurer {
+  color:white;
+}
+
+.AreaMeasurerActive {
+  background-color:rgba(255, 255, 255, 0.55);
+}
+
+.AreaMeasurerDeactive {
+  color:rgba(255, 255, 255, 0.55);
+  border-color:rgba(255, 255, 255, 0.55);
+}

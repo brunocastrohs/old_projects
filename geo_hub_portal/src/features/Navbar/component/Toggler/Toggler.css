@@ -1,0 +1,13 @@
+.Toggler{
+  padding:17px 20px 17px 20px;
+  margin-left:5px;
+  color:white !important;
+}
+
+@media only screen and (max-width: 500px) {
+  .Toggler{
+    padding:13px 10px 13px 10px;
+    margin-left:2px;
+  }
+ }
+

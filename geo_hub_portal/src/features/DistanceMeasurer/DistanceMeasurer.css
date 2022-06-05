@@ -1,0 +1,12 @@
+.DistanceMeasurer {
+  color:white;
+}
+
+.DistanceMeasurerActive {
+  background-color:rgba(255, 255, 255, 0.55);
+}
+
+.DistanceMeasurerDeactive {
+  color:rgba(255, 255, 255, 0.55);
+  border-color:rgba(255, 255, 255, 0.55);
+}

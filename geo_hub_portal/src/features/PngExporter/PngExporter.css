@@ -1,0 +1,8 @@
+.PngExporter {
+  color:white;
+}
+
+#image-download{
+  visibility: hidden;
+  display:hidden;
+}
